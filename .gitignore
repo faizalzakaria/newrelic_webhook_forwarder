@@ -1,0 +1,10 @@
+/.bundle
+/log/*.log*
+/tmp
+.rvmrc
+.DS_STORE
+.ruby-gemset
+.ruby-version
+*~*
+/.project
+/.env.production

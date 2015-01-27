@@ -1,0 +1,139 @@
+
+# Common configuration.
+AllCops:
+  # Include gemspec and Rakefile
+  Includes:
+    - '**/Rakefile'
+  Excludes:
+    - '**/*.yml'
+    - 'db/**'
+    - 'config/**'
+
+AccessorMethodName:
+  Enabled: true
+
+AlignHash:
+  Enabled: true
+
+AlignParameters:
+  Enabled: true
+
+AndOr:
+  Enabled: true
+
+AssignmentInCondition:
+  Enabled: true
+
+BlockAlignment:
+  Enabled: true
+
+BracesAroundHashParameters:
+  Enabled: true
+
+CaseEquality:
+  Enabled: true
+
+ClassVars:
+  Enabled: true
+
+CommentAnnotation:
+  Enabled: true
+
+ConstantName:
+  Enabled: true
+
+CyclomaticComplexity:
+  Max: 10
+
+Documentation:
+  Enabled: false
+
+EmptyLinesAroundAccessModifier:
+  Enabled: true
+
+EmptyLinesAroundBody:
+  Enabled: true
+
+EmptyLiteral:
+  Enabled: true
+
+Encoding:
+  Enabled: false
+
+EndAlignment:
+  Enabled: true
+
+GlobalVars:
+  Enabled: false
+
+HashSyntax:
+  Enabled: true
+
+IfUnlessModifier:
+  Enabled: true
+
+IndentationWidth:
+  Enabled: true
+
+Lambda:
+  Enabled: true
+
+LeadingCommentSpace:
+  Enabled: true
+
+LineLength:
+  Max: 164
+
+MethodLength:
+  Max: 30
+
+NumericLiterals:
+  Enabled: true
+
+ParenthesesAroundCondition:
+  Enabled: true
+
+PredicateName:
+  Enabled: true
+
+RedundantBegin:
+  Enabled: false
+
+RedundantSelf:
+  Enabled: true
+
+RegexpLiteral:
+  Enabled: true
+
+RescueException:
+  Enabled: false
+
+SignalException:
+  Enabled: true
+
+SingleLineBlockParams:
+  Enabled: true
+
+SpaceAroundBlockBraces:
+  Enabled: true
+
+SpaceInsideHashLiteralBraces:
+  Enabled: true
+
+SpaceInsideParens:
+  Enabled: true
+
+StringLiterals:
+  Enabled: true
+
+TrailingBlankLines:
+  Enabled: true
+
+UnlessElse:
+  Enabled: true
+
+UnreachableCode:
+  Enabled: true
+
+UselessAssignment:
+  Enabled: true
