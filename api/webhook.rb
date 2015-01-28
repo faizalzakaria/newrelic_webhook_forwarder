@@ -6,7 +6,8 @@ module NewRelicWebhookForwarder
 
     resource :webhooks do
       post '/newrelic' do
-        { status: 'green' }
+        NewRelicWebhookForwarder::Helper.send_sms(params)
+        { status: 'ok' }
       end
     end
   end

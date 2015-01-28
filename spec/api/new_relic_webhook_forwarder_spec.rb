@@ -17,6 +17,7 @@ describe NewRelicWebhookForwarder::API do
 
   describe NewRelicWebhookForwarder::Webhook do
     it 'should return green' do
+      NewRelicWebhookForwarder::SMS.any_instance.stub(:send)
       post '/kankong/v1/webhooks/newrelic'
       assert_response_success last_response
     end
