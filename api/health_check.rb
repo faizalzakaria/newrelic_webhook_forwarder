@@ -5,7 +5,7 @@ module NewRelicWebhookForwarder
     rescue_from :all
 
     get '/' do
-      {status: "green"}
+      { status: 'green' }
     end
   end
 end

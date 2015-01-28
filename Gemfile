@@ -7,6 +7,7 @@ gem 'rack-cors', '~> 0.2.8', :require => 'rack/cors'
 gem 'grape-swagger', '~> 0.6.0'
 gem 'racksh'
 gem 'require_all'
+gem 'foreman'
 
 group :development, :test do
   gem 'rubocop'

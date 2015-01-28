@@ -9,7 +9,7 @@ module NewRelicWebhookForwarder
           allow do
             origins '*'
             resource '*', headers: :any,
-            :methods => [:get, :post, :delete, :put, :options]
+                          methods: [:get, :post, :delete, :put, :options]
           end
         end
         run NewRelicWebhookForwarder::App.new
@@ -20,5 +20,4 @@ module NewRelicWebhookForwarder
       NewRelicWebhookForwarder::API.call(env)
     end
   end
-
 end

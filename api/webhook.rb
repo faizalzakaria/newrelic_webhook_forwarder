@@ -6,9 +6,8 @@ module NewRelicWebhookForwarder
 
     resource :webhooks do
       post '/newrelic' do
-        {status: "green"}
+        { status: 'green' }
       end
     end
   end
 end
-

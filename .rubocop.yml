@@ -2,9 +2,9 @@
 # Common configuration.
 AllCops:
   # Include gemspec and Rakefile
-  Includes:
+  Include:
     - '**/Rakefile'
-  Excludes:
+  Exclude:
     - '**/*.yml'
     - 'db/**'
     - 'config/**'
@@ -112,9 +112,6 @@ SignalException:
   Enabled: true
 
 SingleLineBlockParams:
-  Enabled: true
-
-SpaceAroundBlockBraces:
   Enabled: true
 
 SpaceInsideHashLiteralBraces:
