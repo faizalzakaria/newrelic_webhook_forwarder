@@ -8,3 +8,4 @@
 *~*
 /.project
 /.env.production
+/.env
