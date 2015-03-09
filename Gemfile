@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby '2.1.2'
 gem 'rake'
 gem 'grape', github: 'intridea/grape'
 gem 'rack-cors', '~> 0.2.8', :require => 'rack/cors'
